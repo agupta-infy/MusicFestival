@@ -1,0 +1,1038 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04529AA712EB81C6C1A1829E9C03ED30 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB0C226D602EC371BECC5BD2CC9370 /* SessionDelegate.swift */; };
+		04B5E007086153927EFD3159DC6D58BD /* Pods-MusicFestivalTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C367FBE29A42F2F903AFE8117ABA5047 /* Pods-MusicFestivalTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09FF8390D458825A9F74871BCEAD6400 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B079F294DA5D9A879E6D53A91F51A1E /* CFNetwork.framework */; };
+		0B432C3B5C0E43612BA97F9232CF3040 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
+		1EFCAB566C51A1E32859E46ABDA1543E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE101F8BE2F43D16C24A9874C79A94A /* Request.swift */; };
+		2CAF2A45A6DA886DC8EE96D108FFFF7B /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63F367F44FC87833A1792B541781BB7 /* AFError.swift */; };
+		2CEF50A2EBA146F834D127C55A438F1D /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C36DA43AFF8C1CD3C666DACA78B91C2 /* NetworkReachabilityManager.swift */; };
+		35161C948A84C72FD4C57B36C934D8AC /* Pods-MusicFestival-MusicFestivalUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7C2A485009B0F55C349F2D749FA31ED /* Pods-MusicFestival-MusicFestivalUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AD322BBFD533967CB2B4B48FF1D27AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
+		474AFCEAAC5E7654AB34BD9E51D5543F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FC9B604FA843EF26A951C43C0CE8B /* Notifications.swift */; };
+		519E79213B7CCE91D68993A585C10C85 /* Pods-MusicFestival-MusicFestivalUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AB212D7032A9E789795C8DF5611DEC /* Pods-MusicFestival-MusicFestivalUITests-dummy.m */; };
+		54143EACA5C84384788C0EFFD5CEB1D4 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D7A47A590ED08C21AB24503841C370 /* ParameterEncoding.swift */; };
+		54382B3953754E723543CFA18382D2DB /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ACD677FD4B95B260E1B1C656D08B84 /* Timeline.swift */; };
+		5F70A00DFA04C274ACC5D14AAEEDAB91 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF15E9B6C2601FD9AD228CA2D657E44B /* ResponseSerialization.swift */; };
+		69477FAF405F183C3D1923B3416A2123 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D3F4F1011789493720361780A1982D /* SessionManager.swift */; };
+		75524FE06EA2B7CF54E5FF7E2755A301 /* Pods-MusicFestival-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 508CC3FB3045E610410759613DCD7ECE /* Pods-MusicFestival-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		758286AD15F11C7388C08F55DE383580 /* Pods-MusicFestival-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF36B801031101C79FF430CE34BCF83C /* Pods-MusicFestival-dummy.m */; };
+		871BA8E186CC272DA60079414C8D0477 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AE0D4172A0ECD56EBFA08991A7C70 /* Validation.swift */; };
+		9CD7EDA702ACFC447D88BE475E1ACC80 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA11279AA1D6557BB10C9936E9B3A3 /* Result.swift */; };
+		A20AE4CD6DB0C082D9CB2AFBBE54C563 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A315E96FC5BCCAB1C5145D4BF1BCF /* Response.swift */; };
+		A8C3CC012CC842AF3A8766A2D5348DE5 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8FC88383C541917CFD5ADA31DD7AB /* DispatchQueue+Alamofire.swift */; };
+		A8CD0366D5A266D3B3687F5EF3BBDF25 /* Pods-MusicFestivalTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874320F01DCD8DE2BF755F874AD3D20 /* Pods-MusicFestivalTests-dummy.m */; };
+		C4C402E90CECD104DE90C86A90466FAE /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE4C558583FF9884EBA9DDF1C6F0DCD /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC7491FF7A205D94147225C31B5DA10B /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FC5E8A366EFB3B0CF9816F6A90B258 /* Alamofire.swift */; };
+		E2E69B7AFF93DA18247ECF6B9EA1FFEB /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0389D0AFC58E73A075F3F7740CE1D441 /* Alamofire-dummy.m */; };
+		EF26DC361553C37E6150D374AAFF2492 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50DCBCED5F02570DDA9386825ACB4CF /* TaskDelegate.swift */; };
+		EF346B5243C957FE1BB9AAB075DA1D77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
+		EFA5ACFFFA9EB5F27A2107CBCF4AAEF2 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B86CF47C1835EA00FE7A8B8D5CCC5 /* ServerTrustPolicy.swift */; };
+		F0C4DC477FF6E6BFE947F3AF993B12F4 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616062C81FDAB5C58156D8D00F0FC48D /* MultipartFormData.swift */; };
+		FD39ECEB59159A5A8E9FB1863DFB7BC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DBC6E16BDA1F2D8D9D4467C5E2546C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		9A97796DA415CEDAAD5E9FE0B01C7444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		C02696C2709E1FA135FD532015B207BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E2389FCD1F116A9F90CE9524277ED7A;
+			remoteInfo = "Pods-MusicFestival";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0389D0AFC58E73A075F3F7740CE1D441 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		0C96CDEC4805F115B4225E4EBFC020B7 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		165157AC023F7BCA84A7FBAD6F48D0A0 /* Pods_MusicFestivalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MusicFestivalTests.framework; path = "Pods-MusicFestivalTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1874320F01DCD8DE2BF755F874AD3D20 /* Pods-MusicFestivalTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicFestivalTests-dummy.m"; sourceTree = "<group>"; };
+		1BD4B07B63E353E0348E545B20E23942 /* Pods-MusicFestival.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MusicFestival.modulemap"; sourceTree = "<group>"; };
+		222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		26A436E5F68E68D806766F326A3C7EA3 /* Pods-MusicFestival-MusicFestivalUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MusicFestival-MusicFestivalUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26FA2F6BC5310502BF4621BF69AB48A9 /* Pods-MusicFestival.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicFestival.release.xcconfig"; sourceTree = "<group>"; };
+		2C50F83F93296D01A5B9009365A2671D /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		2EE101F8BE2F43D16C24A9874C79A94A /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		3C3744FA8EF2888D25567E6E27499072 /* Pods-MusicFestival-MusicFestivalUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicFestival-MusicFestivalUITests-Info.plist"; sourceTree = "<group>"; };
+		3D7B86CF47C1835EA00FE7A8B8D5CCC5 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		3EFB0C226D602EC371BECC5BD2CC9370 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		4151AF9AA2A1DD5B6951DA49F7AD01B2 /* Pods-MusicFestivalTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicFestivalTests-Info.plist"; sourceTree = "<group>"; };
+		47D8FC88383C541917CFD5ADA31DD7AB /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		4C8CC2CE6D75B478BBB4881D93E51981 /* Pods-MusicFestival-MusicFestivalUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicFestival-MusicFestivalUITests-frameworks.sh"; sourceTree = "<group>"; };
+		4F6954B5C757C4EA18E72BE5417EB6E6 /* Pods-MusicFestival-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicFestival-Info.plist"; sourceTree = "<group>"; };
+		508CC3FB3045E610410759613DCD7ECE /* Pods-MusicFestival-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicFestival-umbrella.h"; sourceTree = "<group>"; };
+		58ACD677FD4B95B260E1B1C656D08B84 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED047C2109FD8C989F0D93F032AAA29 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		5FEB2726D8D5B1A0A657204329BCF4BD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		605E256805C3E2C503266BD2987C7EAD /* Pods-MusicFestivalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicFestivalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		616062C81FDAB5C58156D8D00F0FC48D /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		62B045040F600AB842E9227198BFF438 /* Pods-MusicFestivalTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MusicFestivalTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63082F707CCCA43D0663107B0174214F /* Pods-MusicFestival-MusicFestivalUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicFestival-MusicFestivalUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		77F388782BF97C05A87B076C6972F2FF /* Pods_MusicFestival_MusicFestivalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MusicFestival_MusicFestivalUITests.framework; path = "Pods-MusicFestival-MusicFestivalUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C36DA43AFF8C1CD3C666DACA78B91C2 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		8100E994D02B1243E238A33E0BEA4910 /* Pods-MusicFestivalTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicFestivalTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		81EC4065E2A29B467F2D8DBBBB26777E /* Pods-MusicFestival-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicFestival-acknowledgements.plist"; sourceTree = "<group>"; };
+		85FC5E8A366EFB3B0CF9816F6A90B258 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		8B079F294DA5D9A879E6D53A91F51A1E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		8D13A1452DC801EBA674E98F956E9E1A /* Pods-MusicFestival.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicFestival.debug.xcconfig"; sourceTree = "<group>"; };
+		98D3F4F1011789493720361780A1982D /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A31DDF318E3E03B4DEA2F1B4182A555D /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		A50DCBCED5F02570DDA9386825ACB4CF /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		AE7771EDFDD8D36A5720A6E5CAE7D31A /* Pods-MusicFestival-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MusicFestival-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF15E9B6C2601FD9AD228CA2D657E44B /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		B06A315E96FC5BCCAB1C5145D4BF1BCF /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		B72CD0E07CA15D75894ABFD187C00484 /* Pods-MusicFestival-MusicFestivalUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MusicFestival-MusicFestivalUITests.modulemap"; sourceTree = "<group>"; };
+		B86FC9B604FA843EF26A951C43C0CE8B /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		C367FBE29A42F2F903AFE8117ABA5047 /* Pods-MusicFestivalTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicFestivalTests-umbrella.h"; sourceTree = "<group>"; };
+		CF36B801031101C79FF430CE34BCF83C /* Pods-MusicFestival-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicFestival-dummy.m"; sourceTree = "<group>"; };
+		D0AB212D7032A9E789795C8DF5611DEC /* Pods-MusicFestival-MusicFestivalUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicFestival-MusicFestivalUITests-dummy.m"; sourceTree = "<group>"; };
+		D8E09BCAB73F43EF0F1D909055BC2741 /* Pods-MusicFestivalTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MusicFestivalTests.modulemap"; sourceTree = "<group>"; };
+		DC50F4B385D9B1A2AD83B14A4BDBF311 /* Pods-MusicFestival-MusicFestivalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicFestival-MusicFestivalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF3AE0D4172A0ECD56EBFA08991A7C70 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		E560014124DEBCC311AAE25446DE1EE7 /* Pods_MusicFestival.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MusicFestival.framework; path = "Pods-MusicFestival.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63F367F44FC87833A1792B541781BB7 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		F1DA11279AA1D6557BB10C9936E9B3A3 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		F5DDE64AF2B76D279B7DC3B5EC955797 /* Pods-MusicFestivalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicFestivalTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7C2A485009B0F55C349F2D749FA31ED /* Pods-MusicFestival-MusicFestivalUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicFestival-MusicFestivalUITests-umbrella.h"; sourceTree = "<group>"; };
+		F8D7A47A590ED08C21AB24503841C370 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		F95F8F7A1CCF93B18581AF629D2550A3 /* Pods-MusicFestival-MusicFestivalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicFestival-MusicFestivalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA16681F9F24EA98DCABC6D3DFD60103 /* Pods-MusicFestival-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicFestival-frameworks.sh"; sourceTree = "<group>"; };
+		FFE4C558583FF9884EBA9DDF1C6F0DCD /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		038ABFD12EA95B2D137D4CEFBCC72F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FF8390D458825A9F74871BCEAD6400 /* CFNetwork.framework in Frameworks */,
+				FD39ECEB59159A5A8E9FB1863DFB7BC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		066BA5D7B0524D70F867C457BA6BAFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF346B5243C957FE1BB9AAB075DA1D77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E2DB714C09DEF32CD901FBA3C2FA5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD322BBFD533967CB2B4B48FF1D27AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81BE7864A2576BA8FEBF203BE353FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B432C3B5C0E43612BA97F9232CF3040 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E34DCC8E2CF86B8D72232914781A840D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2975AF14C123D8723CA4078CA6497051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				E560014124DEBCC311AAE25446DE1EE7 /* Pods_MusicFestival.framework */,
+				77F388782BF97C05A87B076C6972F2FF /* Pods_MusicFestival_MusicFestivalUITests.framework */,
+				165157AC023F7BCA84A7FBAD6F48D0A0 /* Pods_MusicFestivalTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AA194958F977C1AC111867CC3D297A6 /* Pods-MusicFestival */ = {
+			isa = PBXGroup;
+			children = (
+				1BD4B07B63E353E0348E545B20E23942 /* Pods-MusicFestival.modulemap */,
+				AE7771EDFDD8D36A5720A6E5CAE7D31A /* Pods-MusicFestival-acknowledgements.markdown */,
+				81EC4065E2A29B467F2D8DBBBB26777E /* Pods-MusicFestival-acknowledgements.plist */,
+				CF36B801031101C79FF430CE34BCF83C /* Pods-MusicFestival-dummy.m */,
+				FA16681F9F24EA98DCABC6D3DFD60103 /* Pods-MusicFestival-frameworks.sh */,
+				4F6954B5C757C4EA18E72BE5417EB6E6 /* Pods-MusicFestival-Info.plist */,
+				508CC3FB3045E610410759613DCD7ECE /* Pods-MusicFestival-umbrella.h */,
+				8D13A1452DC801EBA674E98F956E9E1A /* Pods-MusicFestival.debug.xcconfig */,
+				26FA2F6BC5310502BF4621BF69AB48A9 /* Pods-MusicFestival.release.xcconfig */,
+			);
+			name = "Pods-MusicFestival";
+			path = "Target Support Files/Pods-MusicFestival";
+			sourceTree = "<group>";
+		};
+		7D02D4600E8C814A4EF1D8C7FF8FA146 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ED047C2109FD8C989F0D93F032AAA29 /* Alamofire.modulemap */,
+				0389D0AFC58E73A075F3F7740CE1D441 /* Alamofire-dummy.m */,
+				A31DDF318E3E03B4DEA2F1B4182A555D /* Alamofire-Info.plist */,
+				5FEB2726D8D5B1A0A657204329BCF4BD /* Alamofire-prefix.pch */,
+				FFE4C558583FF9884EBA9DDF1C6F0DCD /* Alamofire-umbrella.h */,
+				2C50F83F93296D01A5B9009365A2671D /* Alamofire.debug.xcconfig */,
+				0C96CDEC4805F115B4225E4EBFC020B7 /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		8F8D5D4AC3DAC3753D0F6E0C2641E051 /* Pods-MusicFestivalTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8E09BCAB73F43EF0F1D909055BC2741 /* Pods-MusicFestivalTests.modulemap */,
+				62B045040F600AB842E9227198BFF438 /* Pods-MusicFestivalTests-acknowledgements.markdown */,
+				8100E994D02B1243E238A33E0BEA4910 /* Pods-MusicFestivalTests-acknowledgements.plist */,
+				1874320F01DCD8DE2BF755F874AD3D20 /* Pods-MusicFestivalTests-dummy.m */,
+				4151AF9AA2A1DD5B6951DA49F7AD01B2 /* Pods-MusicFestivalTests-Info.plist */,
+				C367FBE29A42F2F903AFE8117ABA5047 /* Pods-MusicFestivalTests-umbrella.h */,
+				605E256805C3E2C503266BD2987C7EAD /* Pods-MusicFestivalTests.debug.xcconfig */,
+				F5DDE64AF2B76D279B7DC3B5EC955797 /* Pods-MusicFestivalTests.release.xcconfig */,
+			);
+			name = "Pods-MusicFestivalTests";
+			path = "Target Support Files/Pods-MusicFestivalTests";
+			sourceTree = "<group>";
+		};
+		90FDDC7F5D24472360CA259A8D40AE98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC362FA3C7A87C2E5630BA06D8CB57BD /* Alamofire */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CBAA05ECB462603916784813D7EB86B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AA194958F977C1AC111867CC3D297A6 /* Pods-MusicFestival */,
+				E141383F05653D79EFC4C539CF06D069 /* Pods-MusicFestival-MusicFestivalUITests */,
+				8F8D5D4AC3DAC3753D0F6E0C2641E051 /* Pods-MusicFestivalTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CC362FA3C7A87C2E5630BA06D8CB57BD /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				E63F367F44FC87833A1792B541781BB7 /* AFError.swift */,
+				85FC5E8A366EFB3B0CF9816F6A90B258 /* Alamofire.swift */,
+				47D8FC88383C541917CFD5ADA31DD7AB /* DispatchQueue+Alamofire.swift */,
+				616062C81FDAB5C58156D8D00F0FC48D /* MultipartFormData.swift */,
+				7C36DA43AFF8C1CD3C666DACA78B91C2 /* NetworkReachabilityManager.swift */,
+				B86FC9B604FA843EF26A951C43C0CE8B /* Notifications.swift */,
+				F8D7A47A590ED08C21AB24503841C370 /* ParameterEncoding.swift */,
+				2EE101F8BE2F43D16C24A9874C79A94A /* Request.swift */,
+				B06A315E96FC5BCCAB1C5145D4BF1BCF /* Response.swift */,
+				AF15E9B6C2601FD9AD228CA2D657E44B /* ResponseSerialization.swift */,
+				F1DA11279AA1D6557BB10C9936E9B3A3 /* Result.swift */,
+				3D7B86CF47C1835EA00FE7A8B8D5CCC5 /* ServerTrustPolicy.swift */,
+				3EFB0C226D602EC371BECC5BD2CC9370 /* SessionDelegate.swift */,
+				98D3F4F1011789493720361780A1982D /* SessionManager.swift */,
+				A50DCBCED5F02570DDA9386825ACB4CF /* TaskDelegate.swift */,
+				58ACD677FD4B95B260E1B1C656D08B84 /* Timeline.swift */,
+				DF3AE0D4172A0ECD56EBFA08991A7C70 /* Validation.swift */,
+				7D02D4600E8C814A4EF1D8C7FF8FA146 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				90FDDC7F5D24472360CA259A8D40AE98 /* Pods */,
+				2975AF14C123D8723CA4078CA6497051 /* Products */,
+				CBAA05ECB462603916784813D7EB86B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E141383F05653D79EFC4C539CF06D069 /* Pods-MusicFestival-MusicFestivalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B72CD0E07CA15D75894ABFD187C00484 /* Pods-MusicFestival-MusicFestivalUITests.modulemap */,
+				26A436E5F68E68D806766F326A3C7EA3 /* Pods-MusicFestival-MusicFestivalUITests-acknowledgements.markdown */,
+				63082F707CCCA43D0663107B0174214F /* Pods-MusicFestival-MusicFestivalUITests-acknowledgements.plist */,
+				D0AB212D7032A9E789795C8DF5611DEC /* Pods-MusicFestival-MusicFestivalUITests-dummy.m */,
+				4C8CC2CE6D75B478BBB4881D93E51981 /* Pods-MusicFestival-MusicFestivalUITests-frameworks.sh */,
+				3C3744FA8EF2888D25567E6E27499072 /* Pods-MusicFestival-MusicFestivalUITests-Info.plist */,
+				F7C2A485009B0F55C349F2D749FA31ED /* Pods-MusicFestival-MusicFestivalUITests-umbrella.h */,
+				F95F8F7A1CCF93B18581AF629D2550A3 /* Pods-MusicFestival-MusicFestivalUITests.debug.xcconfig */,
+				DC50F4B385D9B1A2AD83B14A4BDBF311 /* Pods-MusicFestival-MusicFestivalUITests.release.xcconfig */,
+			);
+			name = "Pods-MusicFestival-MusicFestivalUITests";
+			path = "Target Support Files/Pods-MusicFestival-MusicFestivalUITests";
+			sourceTree = "<group>";
+		};
+		E34DCC8E2CF86B8D72232914781A840D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8B079F294DA5D9A879E6D53A91F51A1E /* CFNetwork.framework */,
+				222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		67E55420934A2EED9FBB649C11F0AAE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35161C948A84C72FD4C57B36C934D8AC /* Pods-MusicFestival-MusicFestivalUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802CA5A9F3A1707AD43AD145B37A4BD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C402E90CECD104DE90C86A90466FAE /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04030870B5E0D4EB5863E36983948D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B5E007086153927EFD3159DC6D58BD /* Pods-MusicFestivalTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDBAF3B29226717C61E39BCF20FA717 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75524FE06EA2B7CF54E5FF7E2755A301 /* Pods-MusicFestival-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C8F7465AE946162404EFEDEBE29877F /* Pods-MusicFestival-MusicFestivalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9101EAF0DBECDA45F2433A29E7D56890 /* Build configuration list for PBXNativeTarget "Pods-MusicFestival-MusicFestivalUITests" */;
+			buildPhases = (
+				67E55420934A2EED9FBB649C11F0AAE9 /* Headers */,
+				D376F51527B528D12BF97CE5A408817C /* Sources */,
+				F81BE7864A2576BA8FEBF203BE353FCE /* Frameworks */,
+				DA863FE4EFF6AE716D0E7D2504AEF5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4158DED307E893C59E1C27324A0BE9DD /* PBXTargetDependency */,
+			);
+			name = "Pods-MusicFestival-MusicFestivalUITests";
+			productName = "Pods-MusicFestival-MusicFestivalUITests";
+			productReference = 77F388782BF97C05A87B076C6972F2FF /* Pods_MusicFestival_MusicFestivalUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E2389FCD1F116A9F90CE9524277ED7A /* Pods-MusicFestival */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925213ADA9490FD0FDED22CD9C6D69B1 /* Build configuration list for PBXNativeTarget "Pods-MusicFestival" */;
+			buildPhases = (
+				EBDBAF3B29226717C61E39BCF20FA717 /* Headers */,
+				8CC6853482AD3B753591C6303EC6E4B3 /* Sources */,
+				D6E2DB714C09DEF32CD901FBA3C2FA5F /* Frameworks */,
+				09AB2E5F658F664D50D8A61E28B9BF52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE9F9620BC20E8E077148E39F0833688 /* PBXTargetDependency */,
+			);
+			name = "Pods-MusicFestival";
+			productName = "Pods-MusicFestival";
+			productReference = E560014124DEBCC311AAE25446DE1EE7 /* Pods_MusicFestival.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4D84E7716D4B969FFB6CA73C5470DF7 /* Pods-MusicFestivalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D59C89F405C44C0B5A162407D095418 /* Build configuration list for PBXNativeTarget "Pods-MusicFestivalTests" */;
+			buildPhases = (
+				C04030870B5E0D4EB5863E36983948D3 /* Headers */,
+				D0CAFDE22EF0E5C00237500BA46244AF /* Sources */,
+				066BA5D7B0524D70F867C457BA6BAFDF /* Frameworks */,
+				25CC7F5861A5808EDC71F9E750A28496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0025594BC316AAD679B654D2742215E /* PBXTargetDependency */,
+			);
+			name = "Pods-MusicFestivalTests";
+			productName = "Pods-MusicFestivalTests";
+			productReference = 165157AC023F7BCA84A7FBAD6F48D0A0 /* Pods_MusicFestivalTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08EF48760855E869CE6425C089F7A627 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				802CA5A9F3A1707AD43AD145B37A4BD4 /* Headers */,
+				EE0E36CFC0A113FB50EF1F298B8E1843 /* Sources */,
+				038ABFD12EA95B2D137D4CEFBCC72F7F /* Frameworks */,
+				84A74C9001553A0A56658F295BAE3EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2975AF14C123D8723CA4078CA6497051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				1E2389FCD1F116A9F90CE9524277ED7A /* Pods-MusicFestival */,
+				0C8F7465AE946162404EFEDEBE29877F /* Pods-MusicFestival-MusicFestivalUITests */,
+				C4D84E7716D4B969FFB6CA73C5470DF7 /* Pods-MusicFestivalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09AB2E5F658F664D50D8A61E28B9BF52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25CC7F5861A5808EDC71F9E750A28496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A74C9001553A0A56658F295BAE3EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA863FE4EFF6AE716D0E7D2504AEF5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CC6853482AD3B753591C6303EC6E4B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758286AD15F11C7388C08F55DE383580 /* Pods-MusicFestival-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CAFDE22EF0E5C00237500BA46244AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CD0366D5A266D3B3687F5EF3BBDF25 /* Pods-MusicFestivalTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D376F51527B528D12BF97CE5A408817C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519E79213B7CCE91D68993A585C10C85 /* Pods-MusicFestival-MusicFestivalUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0E36CFC0A113FB50EF1F298B8E1843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAF2A45A6DA886DC8EE96D108FFFF7B /* AFError.swift in Sources */,
+				E2E69B7AFF93DA18247ECF6B9EA1FFEB /* Alamofire-dummy.m in Sources */,
+				DC7491FF7A205D94147225C31B5DA10B /* Alamofire.swift in Sources */,
+				A8C3CC012CC842AF3A8766A2D5348DE5 /* DispatchQueue+Alamofire.swift in Sources */,
+				F0C4DC477FF6E6BFE947F3AF993B12F4 /* MultipartFormData.swift in Sources */,
+				2CEF50A2EBA146F834D127C55A438F1D /* NetworkReachabilityManager.swift in Sources */,
+				474AFCEAAC5E7654AB34BD9E51D5543F /* Notifications.swift in Sources */,
+				54143EACA5C84384788C0EFFD5CEB1D4 /* ParameterEncoding.swift in Sources */,
+				1EFCAB566C51A1E32859E46ABDA1543E /* Request.swift in Sources */,
+				A20AE4CD6DB0C082D9CB2AFBBE54C563 /* Response.swift in Sources */,
+				5F70A00DFA04C274ACC5D14AAEEDAB91 /* ResponseSerialization.swift in Sources */,
+				9CD7EDA702ACFC447D88BE475E1ACC80 /* Result.swift in Sources */,
+				EFA5ACFFFA9EB5F27A2107CBCF4AAEF2 /* ServerTrustPolicy.swift in Sources */,
+				04529AA712EB81C6C1A1829E9C03ED30 /* SessionDelegate.swift in Sources */,
+				69477FAF405F183C3D1923B3416A2123 /* SessionManager.swift in Sources */,
+				EF26DC361553C37E6150D374AAFF2492 /* TaskDelegate.swift in Sources */,
+				54382B3953754E723543CFA18382D2DB /* Timeline.swift in Sources */,
+				871BA8E186CC272DA60079414C8D0477 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4158DED307E893C59E1C27324A0BE9DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 9A97796DA415CEDAAD5E9FE0B01C7444 /* PBXContainerItemProxy */;
+		};
+		B0025594BC316AAD679B654D2742215E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MusicFestival";
+			target = 1E2389FCD1F116A9F90CE9524277ED7A /* Pods-MusicFestival */;
+			targetProxy = C02696C2709E1FA135FD532015B207BC /* PBXContainerItemProxy */;
+		};
+		DE9F9620BC20E8E077148E39F0833688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 4DBC6E16BDA1F2D8D9D4467C5E2546C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		212B3F5FF571B79D6BEB812EC24671CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 605E256805C3E2C503266BD2987C7EAD /* Pods-MusicFestivalTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicFestivalTests/Pods-MusicFestivalTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicFestivalTests/Pods-MusicFestivalTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3AC752F3520D3F895C960CF2352B5116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C50F83F93296D01A5B9009365A2671D /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B56788682C2404AFCBFD45334E63CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F95F8F7A1CCF93B18581AF629D2550A3 /* Pods-MusicFestival-MusicFestivalUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicFestival-MusicFestivalUITests/Pods-MusicFestival-MusicFestivalUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicFestival-MusicFestivalUITests/Pods-MusicFestival-MusicFestivalUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B810634753C7EE61B3FCA96EBFF5BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26FA2F6BC5310502BF4621BF69AB48A9 /* Pods-MusicFestival.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicFestival/Pods-MusicFestival-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicFestival/Pods-MusicFestival.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5422034425AFBF1AACA3AE0A6B8A5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC50F4B385D9B1A2AD83B14A4BDBF311 /* Pods-MusicFestival-MusicFestivalUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicFestival-MusicFestivalUITests/Pods-MusicFestival-MusicFestivalUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicFestival-MusicFestivalUITests/Pods-MusicFestival-MusicFestivalUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C65EB9679CE471424BD4A85BC181A734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C96CDEC4805F115B4225E4EBFC020B7 /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D31E234BB7640831BA17DE486A61F3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D13A1452DC801EBA674E98F956E9E1A /* Pods-MusicFestival.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicFestival/Pods-MusicFestival-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicFestival/Pods-MusicFestival.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F1B5A2E68FF752BBD8BF9A2433E3FBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5DDE64AF2B76D279B7DC3B5EC955797 /* Pods-MusicFestivalTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicFestivalTests/Pods-MusicFestivalTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicFestivalTests/Pods-MusicFestivalTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08EF48760855E869CE6425C089F7A627 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC752F3520D3F895C960CF2352B5116 /* Debug */,
+				C65EB9679CE471424BD4A85BC181A734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D59C89F405C44C0B5A162407D095418 /* Build configuration list for PBXNativeTarget "Pods-MusicFestivalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212B3F5FF571B79D6BEB812EC24671CD /* Debug */,
+				F1B5A2E68FF752BBD8BF9A2433E3FBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9101EAF0DBECDA45F2433A29E7D56890 /* Build configuration list for PBXNativeTarget "Pods-MusicFestival-MusicFestivalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B56788682C2404AFCBFD45334E63CA1 /* Debug */,
+				C5422034425AFBF1AACA3AE0A6B8A5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925213ADA9490FD0FDED22CD9C6D69B1 /* Build configuration list for PBXNativeTarget "Pods-MusicFestival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31E234BB7640831BA17DE486A61F3CC /* Debug */,
+				5B810634753C7EE61B3FCA96EBFF5BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
