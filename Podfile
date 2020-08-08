@@ -4,9 +4,10 @@
 target 'MusicFestival' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'Alamofire'
-  #pod 'Alamofire', '4.0.0'
- # pod 'SwaggerClient'
+  #pod 'Alamofire'
+  pod 'Alamofire', '~> 5.2'
+  #pod 'Alamofire', '~> 4.7'
+  #pod 'SwaggerClient'
 
   # Pods for MusicFestival
 

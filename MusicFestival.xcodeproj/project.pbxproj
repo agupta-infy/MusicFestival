@@ -3,11 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		06540F12555F6171489819C2 /* Pods_MusicFestivalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5C1968CED9FE26893EB8C6 /* Pods_MusicFestivalTests.framework */; };
+		174A770E24DE81CB003EDDF7 /* MusicFestivalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174A770D24DE81CB003EDDF7 /* MusicFestivalModel.swift */; };
+		174A771024DE81DD003EDDF7 /* BandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174A770F24DE81DD003EDDF7 /* BandModel.swift */; };
+		174A771324DE836E003EDDF7 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174A771224DE836E003EDDF7 /* DataService.swift */; };
+		174A771924DED10A003EDDF7 /* FestivalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174A771824DED10A003EDDF7 /* FestivalViewModel.swift */; };
+		174A771C24DEDA8E003EDDF7 /* BandTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174A771A24DEDA8E003EDDF7 /* BandTableViewCell.swift */; };
+		174A771F24DEDB97003EDDF7 /* BandTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174A771E24DEDB96003EDDF7 /* BandTableViewCell.xib */; };
 		17AFB75924DE72D000BE2CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AFB75824DE72D000BE2CE5 /* AppDelegate.swift */; };
 		17AFB75B24DE72D000BE2CE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AFB75A24DE72D000BE2CE5 /* SceneDelegate.swift */; };
 		17AFB75D24DE72D000BE2CE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AFB75C24DE72D000BE2CE5 /* ViewController.swift */; };
@@ -38,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		174A770D24DE81CB003EDDF7 /* MusicFestivalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicFestivalModel.swift; sourceTree = "<group>"; };
+		174A770F24DE81DD003EDDF7 /* BandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandModel.swift; sourceTree = "<group>"; };
+		174A771224DE836E003EDDF7 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		174A771824DED10A003EDDF7 /* FestivalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalViewModel.swift; sourceTree = "<group>"; };
+		174A771A24DEDA8E003EDDF7 /* BandTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandTableViewCell.swift; sourceTree = "<group>"; };
+		174A771E24DEDB96003EDDF7 /* BandTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BandTableViewCell.xib; sourceTree = "<group>"; };
 		17AFB75524DE72CF00BE2CE5 /* MusicFestival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicFestival.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17AFB75824DE72D000BE2CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17AFB75A24DE72D000BE2CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,8 +113,49 @@
 				2CB5ABD473C07F0EE3CF543E /* Pods-MusicFestivalTests.debug.xcconfig */,
 				C1DA22FEF25CB7D88B3CB9BF /* Pods-MusicFestivalTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		174A770324DE7EDE003EDDF7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				174A771824DED10A003EDDF7 /* FestivalViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		174A770424DE7F32003EDDF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				174A770D24DE81CB003EDDF7 /* MusicFestivalModel.swift */,
+				174A770F24DE81DD003EDDF7 /* BandModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		174A770524DE7F3C003EDDF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				174A771A24DEDA8E003EDDF7 /* BandTableViewCell.swift */,
+				174A771E24DEDB96003EDDF7 /* BandTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		174A770624DE7F48003EDDF7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17AFB75C24DE72D000BE2CE5 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		174A771124DE8355003EDDF7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				174A771224DE836E003EDDF7 /* DataService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		17AFB74C24DE72CF00BE2CE5 = {
@@ -130,9 +183,13 @@
 		17AFB75724DE72CF00BE2CE5 /* MusicFestival */ = {
 			isa = PBXGroup;
 			children = (
+				174A771124DE8355003EDDF7 /* Service */,
+				174A770624DE7F48003EDDF7 /* ViewController */,
+				174A770424DE7F32003EDDF7 /* Model */,
+				174A770524DE7F3C003EDDF7 /* View */,
+				174A770324DE7EDE003EDDF7 /* ViewModel */,
 				17AFB75824DE72D000BE2CE5 /* AppDelegate.swift */,
 				17AFB75A24DE72D000BE2CE5 /* SceneDelegate.swift */,
-				17AFB75C24DE72D000BE2CE5 /* ViewController.swift */,
 				17AFB75E24DE72D000BE2CE5 /* Main.storyboard */,
 				17AFB76124DE72D900BE2CE5 /* Assets.xcassets */,
 				17AFB76324DE72D900BE2CE5 /* LaunchScreen.storyboard */,
@@ -281,6 +338,7 @@
 				17AFB76524DE72D900BE2CE5 /* LaunchScreen.storyboard in Resources */,
 				17AFB76224DE72D900BE2CE5 /* Assets.xcassets in Resources */,
 				17AFB76024DE72D000BE2CE5 /* Main.storyboard in Resources */,
+				174A771F24DEDB97003EDDF7 /* BandTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,9 +466,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174A771C24DEDA8E003EDDF7 /* BandTableViewCell.swift in Sources */,
+				174A771924DED10A003EDDF7 /* FestivalViewModel.swift in Sources */,
+				174A771024DE81DD003EDDF7 /* BandModel.swift in Sources */,
 				17AFB75D24DE72D000BE2CE5 /* ViewController.swift in Sources */,
 				17AFB75924DE72D000BE2CE5 /* AppDelegate.swift in Sources */,
+				174A771324DE836E003EDDF7 /* DataService.swift in Sources */,
 				17AFB75B24DE72D000BE2CE5 /* SceneDelegate.swift in Sources */,
+				174A770E24DE81CB003EDDF7 /* MusicFestivalModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
