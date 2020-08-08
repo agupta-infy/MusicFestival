@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UINib(nibName: "UserCell", bundle: nil), forCellReuseIdentifier: "UserCell")
+        tableView.register(UINib(nibName: "BandTableViewCell", bundle: nil), forCellReuseIdentifier: "BandTableViewCell")
         bandVieModel.vc = self
         bandVieModel.getMusicFestivalData()
     }
@@ -27,7 +27,7 @@ extension ViewController: UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "UserCell", for: indexPath) as? BandTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "BandTableViewCell", for: indexPath) as? BandTableViewCell
         cell?.musicModel = bandVieModel.bandArray[indexPath.row]
         return cell!
     }
